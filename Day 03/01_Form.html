@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+</head>
+<body>
+    <!-- Use action to define the place of the file -->
+    <form action="/action">
+        <!-- use input to for different tags  -->
+        <div><label for="username">Username: </label>
+        <input type="text" placeholder="name" id="username"></div>
+        
+        <div>
+            <label for="password">Passowrd</label>
+        <input type="password" placeholder="password" id="password">
+        </div>
+
+        <div>
+             
+        <label for="mo">Mobile:</label>
+        <input type="number" id="mo">
+        </div>
+        
+        <div>
+            <label for="time">Time:</label>
+            <input type="time" id="time">
+        </div>
+        
+        <div>
+            <button type="submit">Submit</button>
+            <!-- we not use input tags for button -->
+            <input type="button" value="click me"> 
+        </div>
+        
+    </form>
+</body>
+</html>

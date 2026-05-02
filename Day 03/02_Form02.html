@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="/Form">
+
+        <h1>University Registration Form</h1>
+        <p>Please fill out the form below to Register</p>
+        <hr>
+
+        <h2>Personal Detail</h2>
+
+    
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="e.g. Arjun" id="name" name="name" required>
+
+        </div>
+        <br>
+        <div>
+            <label for="last">Last Name:</label>
+            <input type="text" placeholder="e.g. kumar" id="last" name="last name" >
+        </div>
+<br>
+        <div>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+        </div>
+        <br>
+
+        <div>
+            <label for="gender">Gender:</label required>
+            
+            <br>
+            <label for="male">Male</label>
+            <input type="radio" id="male"  name="gender">
+            <br>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender">
+            <br>
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender">
+        </div>
+        <br>
+        <div>
+            <label for="photo">Upload your Photo</label>
+            <br>
+            <input type="file" name="photo" id="photo">
+
+        </div>
+        
+        <hr> 
+        <h2>Contact Information</h2>
+        <div>
+            <label for="em">Email:</label>
+            <input type="text" id="em" placeholder="abc@gmail.com" name="Email" required>
+        </div>
+        <br>
+        <div>
+            <label for="Mo">Mobile No:</label>
+            <input type="text" id="Mo" placeholder="9876543210" name="Mobile" required>
+        </div>
+<br>
+        <div>
+            <label for="add">Mailing address:</label>
+            <br>
+            <!-- <input type="Textarea" id="add" placeholder="e.g umran unchahar" name="address"> -->
+            <textarea name="address" id="add" placeholder="e.g umran unchahar"></textarea>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h2>Academic Information</h2>
+        </div>
+        <div>
+            <label for="course">Select your course:</label>
+            <select name="course" id="course" required>
+                <option value="CSE">CSE</option>
+                <option value="M.E">M.E</option>
+                <option value="Civil">Civil</option>
+                <option value="Aerospace">Aerospace</option>
+            </select>
+        </div>
+        <div>
+            <h2>Extra Curricular Activites</h2>
+        </div>
+        <div>
+            <input type="checkbox" id="sport" name="Activites">
+            <label for="sport">Sports</label>
+
+        </div>
+        <div>
+            <input type="checkbox" id="Music" name="Activites">
+            <label for="Music">Music</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Tech" name="Activites">
+            <label for="Tech">Tech</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="Video Games" name="Activites">
+            <label for="Video Games">Video Games</label>
+        </div>
+
+        <hr>
+
+        <div>
+            <h2>Create Your Passowrd</h2>
+        </div>
+        <div>
+            <label for="pass">Password:</label>
+            <input type="text" placeholder="ar@45" id="pass" name="Passowrd" required>
+        </div>
+        <br>
+        <div>
+            <label for="c.p">Confirm Password:</label>
+            <input type="text" placeholder="ar@45" id="c.p" name="Confimr password">
+        </div>
+        <br>
+
+        <div>
+            <label for="security">Security Question:</label>
+            <select name="security" id="security" required>
+                <option value="birth place"> Your birth place</option>
+                <option value="first school">Your first school</option>
+                <option value="first name">Your first name</option>
+            
+            </select>
+
+        </div>
+        <br>
+        <div>
+            <label for="ans">Security Answer:</label>
+            <input type="text" name="Security answer" id="ans">
+        </div>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+
+    </form>
+</body>
+</html>
