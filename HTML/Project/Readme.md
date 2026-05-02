@@ -5,16 +5,13 @@ I am currently learning Full Stack Web Development and documenting my daily prog
 
 ---
 
-##  About This Repository
-This repository contains:
-- My daily learning (HTML, CSS, JavaScript)
-- Practice files
-- Mini exercises
-- Projects built during my learning journey
+## What I learned
+I want to make a website where i can sell my courses.
 
----
 
-## Technologies I Am Learning
-- HTML(complete)
-- CSS (in progress)
-- JavaScript (coming soon)
+## Files
+index.html
+course.html
+contact.html
+About.html
+
