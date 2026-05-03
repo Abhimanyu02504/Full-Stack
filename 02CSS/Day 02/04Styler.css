@@ -1,0 +1,24 @@
+span{
+    color: aqua;
+}
+
+
+/* Span tags for indivaidual element and in the span tags we cant use height and width tags */
+
+/*   *  is an universal selector */
+
+/* *{
+    padding: 0px;
+    margin: 0px;
+} */
+/* Sapn tags we use padding and margin but in only horizontal not in vertical */
+/* if we want to change any element from block element to inline element use display-inline */
+h2{
+    background-color: aqua;
+    display: inline;
+}
+h1{
+    background-color: burlywood;
+    display: inline;
+}
+/* when we write in the box-sizing; box content its use only its requiremtn padding and margin both are count in height and width but when i wwrite" content-box" then its use which i give */
