@@ -1,0 +1,40 @@
+#first{
+    background-color: orange;
+    height: 100px;
+    width: 400px;
+}
+#second{
+    background-color: white;
+    height: 100px;
+    width: 400px;
+}
+
+.fourth{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 150px;
+}
+#third{
+    background-color: green;
+    height: 100px;
+    width: 400px;
+
+}
+/* .fifth{
+    background-color: white;
+    height: 100px;
+    width: 5px;
+    position: relative;
+    left: 45px;
+}
+.six{
+    background-color: rgb(252, 251, 251);
+    height: 5px;
+    width: 100px;
+    position: relative;
+    bottom: 47.5px;
+    
+} */
