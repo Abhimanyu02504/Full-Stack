@@ -1,0 +1,23 @@
+h2{
+    background-color: aqua;
+    position: relative;
+    left: 50px;
+    /* bottom: px; */
+    
+}
+h3{
+    position: fixed;
+    top: 0px;
+}
+h4{
+    position: absolute;
+    left: 50px;
+    bottom: 100px;
+    top: 200px;
+}
+h5{
+    position: sticky;
+    left: 50px;
+    top: 1000ox
+    ;
+}
