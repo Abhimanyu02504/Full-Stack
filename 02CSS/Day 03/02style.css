@@ -1,0 +1,13 @@
+h1{
+    background-color: rgb(231, 139, 19);
+}
+#first{
+    background-color: aqua;
+}
+.second{
+    background-color: blue;
+}
+h2{
+    background-color: black;
+}
+/* the main priority is given to the id then its goes to class then at last tags like h2,h1,or p */
