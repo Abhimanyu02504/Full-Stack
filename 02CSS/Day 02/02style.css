@@ -1,0 +1,42 @@
+h1{
+    background-color: aqua;
+    height: 50px;
+    width: 300px;
+    
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: rgba(0, 2, 2, 0.874); */
+
+
+    border: 5px solid bisque; 
+
+    /* for giving width to go far from the border use padding */
+    padding: 5px;
+    /* if you want to give space to the box to every side then use margin */
+    margin: 10px;
+}
+h2{
+    background-color: palevioletred;
+    border: 5px solid darkcyan;
+    height: 50px;
+    width: 250px;
+    /* padding: 50px; */
+    /* padding: 50px 20px 30px 40px; */
+    /* padding: 50px 40px; */
+    /* margin: 10px; */
+    margin: 10px 20px 30px 40px;
+    padding: 10px;
+    border-radius: 20px;
+    /* use border radius for make broder circle type as we can see the border of strike is coming soon */
+}
+#first{
+    background-color: bisque;
+    border: 7px solid ;
+    padding: 10px;
+    margin: 5px;
+}
+.second{
+    background-color: burlywood;
+    border: 5px solid rgb(109, 109, 185);
+    padding: 5px;
+}
