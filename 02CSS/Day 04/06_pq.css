@@ -1,0 +1,14 @@
+*{
+    font-family: 'Courier New';
+
+}
+h1{
+    color: #1b74e4;
+}
+.third{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+button{
+    background-color: aqua;
+}
