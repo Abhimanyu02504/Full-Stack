@@ -65,5 +65,10 @@ console.log(str6.split("! "));
 // if i am want to remove extra space which is present in starting or in the ending then use trim()
 let str8 = "   Abhimanyu kaise ho   ";
 console.log(str8.trim());
+// when you want to store any value in heap location the use this
+
+let str10 = new String("Abhimanyu You are fine here");
+console.log(str10)
+
 
 
