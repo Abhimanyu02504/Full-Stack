@@ -37,5 +37,33 @@
 // console.log(message)
 
 // if we want to print this whole statement I am a Coder.\nof Ipec College then we have to use this \ before \n then it will print as it is 
-comment = "I am a Coder.\\nof Ipec College"
-console.log(comment);
+// comment = "I am a Coder.\\nof Ipec College"
+// console.log(comment);
+
+// to print a single word 
+special= "Rohit";
+console.log(special[0]);
+console.log(special.charAt(2));
+
+console.log(special.toLowerCase());
+console.log(special.toUpperCase());
+
+// slice and substring both are used for indexing the variable
+// slice take negative value also 
+let string = "Abhimanyu";
+console.log(string.slice(0,5));
+
+
+// if we want to repplace any value then use replace varibale(varibale,replace variable)  and also replacealll used for jitne jgh same word utne ko replace krne ke liye
+
+let str5 = "Hi abhimanyu how are yours";
+console.log(str5.replace("yours","you"));
+
+let str6= "money! honey! sunny";
+console.log(str6.split("! "));
+
+// if i am want to remove extra space which is present in starting or in the ending then use trim()
+let str8 = "   Abhimanyu kaise ho   ";
+console.log(str8.trim());
+
+
