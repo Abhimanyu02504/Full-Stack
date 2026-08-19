@@ -32,3 +32,10 @@
 // console.log(`" Hello Coder Army"`)
 
 
+// to print in new line use \n
+// message = "I am a Coder.\nof Ipec College "
+// console.log(message)
+
+// if we want to print this whole statement I am a Coder.\nof Ipec College then we have to use this \ before \n then it will print as it is 
+comment = "I am a Coder.\\nof Ipec College"
+console.log(comment);
