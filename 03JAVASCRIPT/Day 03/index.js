@@ -32,4 +32,4 @@ console.log(5<<3);
 // 101.000000 it means shift this decimal 3 in right then answer will be 101000..000  and it is also called left shift 
 console.log(20>>2);
 
-// 10100.00 it is shift 2 in right then it will be 101 then its answer will be 5
+// 10100.00 it is shift 2 in right then it will be 101 then its answer will be
